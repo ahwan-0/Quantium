@@ -1,0 +1,18 @@
+# Anaconda
+anaconda_projects/
+
+# Large data files
+*.xlsx
+*.xls
+
+# Python clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+*.pdf
