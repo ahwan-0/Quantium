@@ -6,6 +6,9 @@ The work spans the full analytics lifecycle : raw messy transactional data, cust
 
 Business question: Who is buying chips, what drives their spend, and did a new in-store layout actually move the needle?
 
+ **Live Dashboard →** : https://quantium-dashboard.onrender.com
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-quantium--dashboard-F28C28?style=flat-square&logo=render&logoColor=white)](https://quantium-dashboard.onrender.com)
 ---
 
 ## Project Structure
