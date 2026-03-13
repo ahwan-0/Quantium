@@ -14,7 +14,7 @@ import os
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, '..', 'Data', 'QVI_data.csv')
+DATA_PATH = os.path.join(BASE_DIR, 'QVI_data.csv')
 
 df = pd.read_csv(DATA_PATH, parse_dates=['DATE'])
 df['YEARMONTH'] = df['DATE'].dt.year * 100 + df['DATE'].dt.month
@@ -829,4 +829,4 @@ def update_trial(trial_store, metric):
 
 # ── RUN ───────────────────────────────────────────────────────────────────────
 if __name__ == '__main__':
-    app.run(debug=True, port=8050)
+    app.run(host='0.0.0.0', port=8050, debug=False)
