@@ -47,17 +47,26 @@ All findings were packaged into a 12-slide boardroom presentation built on the P
 
 ## How to Run
 
-` bashgit clone https://github.com/YOUR_USERNAME/Quantium-Portfolio.git `
-` cd Quantium-Portfolio/Quantium `
+`
+git clone https://github.com/YOUR_USERNAME/Quantium-Portfolio.git 
+`
+`
+cd Quantium-Portfolio/Quantium
+`
 
-` pip install pandas numpy matplotlib seaborn scipy openpyxl jupyter`
+` 
+pip install pandas numpy matplotlib seaborn scipy openpyxl jupyter
+`
 
 ## Category analysis
 
 `jupyter notebook notebooks/Transaction_I.ipynb`
 
 ## Uplift testing (requires QVI_data.csv output from above)
-`Jupyter notebook notebooks/Transaction_II.ipynb`
+
+`
+Jupyter notebook notebooks/Transaction_II.ipynb
+`
 
 
 ## Built as a Part of : 
