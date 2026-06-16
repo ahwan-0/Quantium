@@ -11,7 +11,7 @@ Business question: Who is buying chips, what drives their spend, and did a new i
 ---
 
 ## Project Structure
-
+```
 Quantium/
 ├── data/
 │   ├── QVI_transaction_data.xlsx      # 264K+ raw transactions
@@ -24,7 +24,7 @@ Quantium/
 │   ├── Chips_Category_Review.pptx     # 12-slide client deck
 │   └── Chips_Category_Review.pdf
 └── README.md
-
+```
 ---
 
 ## Work Summary 
